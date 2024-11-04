@@ -26,7 +26,24 @@ Users can change their password
 See Login Sessions :
 Users can see their login sessions
 
-
+## RUN PHP FILE FROM GITHUB
+1. >- Install XAMPP
+>- Clone Respositories by opening your terminal navigate to the directory where you want to clone the repository.
+>- Use the following command (replace username and repository with the appropriate values):
+>- git clone https://github.com/username/repository.git
+>
+2. >-  Move the PHP Files
+   >-  After cloning, move the PHP files to the correct directory for your server.
+   >-  For XAMPP, move the files to the htdocs folder:
+   >-  On Windows: C:\xampp\htdocs
+   >-  On macOS: /Applications/XAMPP/xamppfiles/htdocs
+   >-  You can create a subfolder for your project, e.g., C:\xampp\htdocs\myproject.
+   >
+3. >- Start the local Server
+ >- Make sure your local server (like XAMPP) is running. Open the control panel and start the Apache module.
+> 
+4. >- http://localhost/myproject/yourfile.php
+ 
 
 ## DATABASE CONFIGURATION
 >- Download the user_management_db.sql
