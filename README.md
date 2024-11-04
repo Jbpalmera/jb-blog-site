@@ -1,44 +1,42 @@
-# CodeIgniter 4 Framework
+## Jb Blog Site
+>- Welcome to the JB Blog System! this is for evaluation task purposes only some features of this system are limited and some features is not yet implemented.
 
-## What is CodeIgniter?
+FEATURES ALREADY IMPLEMENTED:
+Login verification authentication:
+Users can login with their details and be stored in the database
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+Registration & Authentication & Email Verification:
+Users can register with their details and be stored in the database
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Password Validation and Requirements:
+My System has a Password validation like Password Must be 8-20 characters long and contain letters, numbers, and symbols.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Logout :
+Users can logout and be stored in the database
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Profile :
+Users can view their profile
 
-## Important Change with index.php
+Profile Edit :
+Users can edit their profile
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+Change Password :
+Users can change their password
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+See Login Sessions :
+Users can see their login sessions
 
-**Please** read the user guide for a better explanation of how CI4 works!
 
-## Repository Management
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## database Configuration
+>- Download the user_management_db.sql
+>- create a table inside phpmyadmin >- run xampp and kindly go to http://localhost/phpmyadmin
+>- import the SQL file> 
+>- after successful im>ort go to the files and under JbWebApp folder Config>database.php  configure your database credentials
+>- run new termina>
+>- cd JbwebAp>
+>- php spark >erve
+>- and succce>sfuly run the project or access localhost:8080
 
 ## Server Requirements
 
