@@ -30,13 +30,14 @@ Users can see their login sessions
 
 ## database Configuration
 >- Download the user_management_db.sql
->- create a table inside phpmyadmin >- run xampp and kindly go to http://localhost/phpmyadmin
->- import the SQL file> 
->- after successful im>ort go to the files and under JbWebApp folder Config>database.php  configure your database credentials
->- run new termina>
->- cd JbwebAp>
->- php spark >erve
->- and succce>sfuly run the project or access localhost:8080
+>- create a table inside phpmyadmin
+>- run xampp and kindly go to http://localhost/phpmyadmin
+>- import the SQL file 
+>- after successful import go to the files and under JbWebApp folder Config>database.php  configure your database credentials
+>- run new terminal
+>- cd JbwebApp
+>- php spark serve
+>- and succcessfuly run the project or access localhost:8080
 
 ## Server Requirements
 
