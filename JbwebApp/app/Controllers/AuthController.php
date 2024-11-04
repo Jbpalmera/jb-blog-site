@@ -8,7 +8,7 @@ date_default_timezone_set('Asia/Manila');
 
 class AuthController extends BaseController
 {
-    
+ 
 
 
     public function register()

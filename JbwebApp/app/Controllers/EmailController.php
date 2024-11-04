@@ -12,7 +12,9 @@ class EmailController extends Controller
         $email->setTo($recipientEmail);
         $email->setFrom('jboyanib102199@gmail.com', 'Jb Oyanib');
         $email->setSubject('Verification Link');
-        $email->setMessage('<p>This is a test Email for verification link <a href="' . $verificationLink . '">Click here to verify your email</a></p>');
+        $email->setMessage('
+                        <div style="text-align:center; background-color: #f0f0f0; padding: 20px; border-radius: 10px;">
+        <p >This is a test Email for verification link <a href="' . $verificationLink . '" style="color: blue; text-decoration: none; font-weight: bold; ">Click here to verify your email</a></p>');
     
         if ($email->send()) {
             return true; // Email sent successfully
