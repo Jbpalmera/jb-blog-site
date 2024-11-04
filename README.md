@@ -1,59 +1,88 @@
 ## JB BLOG SYSTEM
->- Welcome to the JB Blog System! this is for evaluation task purposes only some features of this system are limited and some features is not yet implemented.
-  
-FEATURES ALREADY IMPLEMENTED AND TO BE EVALUATE:
-Login verification authentication:
-Users can login with their details and be stored in the database
+>-Welcome to the JB Blog System! This README provides comprehensive
+>-instructions for setting up and evaluating the features of the system,
+>-built using CodeIgniter 4.
 
-Registration & Authentication & Email Verification:
-Users can register with their details and be stored in the database
+## Features
+The JB Blog System includes several implemented features for user management, which are ready for evaluation:
 
-Password Validation and Requirements:
-My System has a Password validation like Password Must be 8-20 characters long and contain letters, numbers, and symbols.
-
-Logout :
-Users can logout and be stored in the database
-
-Profile :
-Users can view their profile
-
-Profile Edit :
-Users can edit their profile
-
-Change Password :
-Users can change their password
-
-See Login Sessions :
-Users can see their login sessions
-
-## RUN PHP FILE FROM GITHUB
-1. >- Install XAMPP
->- Clone Respositories by opening your terminal navigate to the directory where you want to clone the repository.
->- Use the following command (replace username and repository with the appropriate values):
->- git clone https://github.com/username/repository.git
+>-User Authentication: Secure login verification allowing users to access their accounts.
 >
-2. >-  Move the PHP Files
-   >-  After cloning, move the PHP files to the correct directory for your server.
-   >-  For XAMPP, move the files to the htdocs folder:
-   >-  On Windows: C:\xampp\htdocs
-   >-  On macOS: /Applications/XAMPP/xamppfiles/htdocs
-   >-  You can create a subfolder for your project, e.g., C:\xampp\htdocs\myproject.
-   >
-3. >- Start the local Server
- >- Make sure your local server (like XAMPP) is running. Open the control panel and start the Apache module.
-> 
-4. >- http://localhost/myproject/yourfile.php
- 
+>-Registration & Email Verification: Users can create accounts with email verification to ensure security.
+>
+>-Password Validation: Passwords must be between 8-20 characters and include letters, numbers, and symbols to enhance security.
+>
+>-User Logout: Users can securely log out of their accounts.
+>
+>-Profile Management: Users can view and edit their profiles.
+>
+>-Password Change: Functionality for users to update their passwords as needed.
+>
+>-Login Sessions: Users can review their login sessions for better account management.
+>
+>
+## Installation Instructions
+To set up the JB Blog System locally, follow these steps:
 
-## DATABASE CONFIGURATION
->- Download the user_management_db.sql
->- create a table inside phpmyadmin
->- run xampp and kindly go to http://localhost/phpmyadmin
->- import the SQL file 
->- after successful import go to the files and under JbWebApp folder Config>database.php  configure your database credentials
->- run new terminal
->- cd JbwebApp
->- php spark serve
->- and succcessfuly run the project or access localhost:8080
+>-1. Install XAMPP
+Ensure you have XAMPP installed on your system. XAMPP provides an easy-to-use Apache distribution containing MySQL, PHP, and Perl.
+>
 
-## 
+
+>-2. Clone the Repository
+Open your terminal and navigate to the desired directory where you wish to clone the repository. Execute the following command (replace username with your GitHub username):
+
+>-git clone https://github.com/Jbpalmera/jb-blog-site.git
+>
+
+>-3. Move the PHP Files
+After cloning the repository, transfer the PHP files to the correct directory for your server:
+For Windows: Move files to C:\xampp\htdocs\jb-blog-site.
+For macOS: Move files to /Applications/XAMPP/xamppfiles/htdocs/jb-blog-site.
+>
+>-4. Start the Local Server
+Open the XAMPP Control Panel and start the Apache module. This step is crucial for running PHP files on your local server.
+>
+
+>-5. Access the Application
+To access the application, navigate to the following URL in your web browser:
+>
+http://localhost/jb-blog-site/public/index.php
+
+>-6. Database Configuration
+Download the Database SQL File: Obtain the user_management_db.sql file from the repository.
+>
+
+>-Create the Database:
+
+>-Open your web browser and go to http://localhost/phpmyadmin.
+>
+>-Create a new database (e.g., jb_blog_db).
+>
+>-Import the SQL File:
+
+>-Select the newly created database.
+>-Click on the "Import" tab and upload the user_management_db.sql file.
+>-Configure Database Credentials:
+
+>-Navigate to jb-blog-site/Config/Database.php.
+>-Update the database credentials with your newly created database
+>-information.
+>-7. Run the Project
+>-Open a new terminal window and navigate to the project directory:
+
+
+
+>-cd jb-blog-site
+>-Then, run the following command to start the server:
+
+
+>-php spark serve
+>-After executing this command, your application should be accessible at:
+
+
+>-http://localhost:8080
+## Conclusion
+>-With these instructions, you should have a fully functional JB Blog System up and running. This project not only provides foundational user management features but also serves as a robust framework for further development. As technology continues to evolve, feel free to explore and enhance the system further.
+
+For any issues or further inquiries, please consult the project repository or reach out through GitHub. Happy coding!
